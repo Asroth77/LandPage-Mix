@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, *{
+	font-family: 'Open Sans', sans-serif;
+	
+}
+:root{
+	--header:#040404;
+	--hero:#292929;
+	--morado:#654682;
+	--rojo: #f74f4c;
+	--aqua: #3dcec7;
+	--amarillo: #f4c33a;
+	--features1: #222222;
+	--letra-gris: #aaa;
+	--features2: #161616;
+	--available: #f74f4c;
+	--download: #292929;
+	--footer: #111111;
+	--white:#fff;
+}
+header{
+	background-color: var(--header);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.head-btn{
+	color: var(--letra-gris)!important;
+}
+.Active{
+	color: var(--available)!important;
+}
+#hero{
+	background-color: var(--hero);
+	color: var(--letra-gris);
+	display: flex;
+	justify-content: space-between;
+	padding: 7%;
+}
+#features1{
+	background-color: var(--features1);
+	color: var(--letra-gris);
+	padding: 10%;
+	align-content: center;
+	text-align: center;
+}
+.privilegio{
+	display: flex;
+	justify-content: start;
+	text-align: start;
+	align-content: start;
+	flex-direction: row;
+}
+.privilegio article{
+	max-height: 25%;
+	max-width: 25%;
+	padding: 1.5%;
+	color:var(--white);
+	font-size: 1.2rem;
+}
+.privilegio article p{
+	font-size: 0.9rem;
+}
+.morado{
+	background-color: var(--morado);
+}
+.rojo{
+	background-color: var(--rojo);
+}
+.aqua{
+	background-color: var(--aqua);
+}
+.amarillo{
+	background-color: var(--amarillo);
+}
+#features2{
+	background-color: var(--features2);
+	display: flex;
+	padding: 7.5%;
+	justify-content: space-between;
+	color: var(--letra-gris);
+}
+#features2 section{
+	width: 50%;
+}
+#features2  section article{
+	display: flex;
+	flex-direction: column;
+}
+#download{
+	background-color: var(--download);
+	color: var(--letra-gris);
+	display: flex;
+	flex-direction: column;
+	
+}
+#footer{
+	background-color: var(--footer);
+	color: var(--letra-gris);
+	display: flex;
+	justify-content: center;
+}
